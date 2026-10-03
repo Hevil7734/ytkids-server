@@ -1,0 +1,42 @@
+# Environment & Secrets
+.env*
+*.key
+*.pem
+*token*
+*secret*
+*credential*
+
+# Platform & Tooling caches
+.gemini/
+.gemini-profiles/
+.claude/
+.openclaw/
+__pycache__/
+*.pyc
+
+# Logs & Session files
+*.log
+*.jsonl
+agy_session*
+
+# Media & Videos
+*.mp4
+*.mkv
+*.webm
+*.avi
+*.part
+*.ytdl
+*.jpg
+*.jpeg
+*.png
+cartoons/
+videos/
+thumbnails/
+
+# Databases
+*.db
+*.sqlite*
+
+# Backup & Temp files
+*.bak*
+*~
